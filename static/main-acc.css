@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Bauhaus LT Light;
+    src: url(../fonts/BauhausLightBT.ttf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #000;
+    transition: 2s ease-out;
+}
+
+header {
+    background: #393838;
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
+    transition: 0.5s ease-out;
+    position: relative;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: Bauhaus LT Light;
+    font-size: 40px;
+    color: #fff;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.trip {
+    color: #dd2e4f;
+}
+
+.content {
+    width: 600px;
+    margin: 0 auto;
+}

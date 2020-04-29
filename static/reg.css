@@ -1,0 +1,135 @@
+.parent {
+    position: none;
+}
+
+div.enter-block {
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.input {
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-out;
+    color: #000;
+}
+
+input {
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+input:focus {
+    color: #dd2e4f;
+    border-bottom-color: #dd2e4f;
+}
+
+input:focus::placeholder {
+    color: #dd2e4f;
+    border-bottom-color: #dd2e4f;
+}
+
+img {
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.agreement {
+    margin-top: 30px;
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+}
+
+.agreement input {
+    width: 54px;
+    margin: 0 5px 0 100px;
+}
+
+.button {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 251px;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    transition: 0.3s ease-out;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.button:hover {
+    color: #dd2e4f;
+    border-color: #dd2e4f;
+}
+
+div.ortext {
+    margin: 0 auto;
+    margin-top: 15px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+div.enter {
+    margin: o auto;
+    margin-top: 15px;
+}
+
+div.enter a {
+    width: 251px;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #000;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.3s ease-out;
+}
+
+div.enter a:hover {
+    color: #dd2e4f;
+    border-color: #dd2e4f;
+}
+
+.google {
+    margin: 0 auto;
+    float: left;
+}
+
+.fb {
+    margin: 0 auto;
+    float: right;
+}
+
+.back {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial;
+    
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}

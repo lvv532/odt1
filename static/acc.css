@@ -1,0 +1,108 @@
+h2 {
+    font-family: Arial;
+    font-size: 35px;
+    font-weight: normal;
+    color: #444;
+    /*text-align: center;*/
+    /*margin-left: 400px;*/
+    display: block;
+    float: right;
+}
+
+img {
+    border-radius: 100px;
+    margin-left: 30px;
+    box-shadow: 0 0 0 1px #dd2e4f, 0 0 10px #222;
+    
+}
+
+.min-info {
+    clear: both;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin-left: 30px;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+p::after {
+    transition: 0.3s;
+}
+
+hr {
+    margin-top: 40px;
+    width: 75%;
+    height: 2px;
+    background: #444;
+}
+
+.go {
+    margin: 0 auto;
+    color: #222;
+    text-decoration: none;
+    margin-top: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    -ms-align-items: center;
+    align-items: center;
+    width: 251px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    transition: 0.3s ease-out;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.go:hover {
+    /*color: #dd2e4f;
+    border-color: #dd2e4f;*/
+    
+    color: #fff;
+    border-color: #fff;
+    background: #222;
+    transition: 0.5s;
+}
+
+.button-section {
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.button {
+    margin: 0 auto;
+    color: #222;
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
+    -ms-align-items: center;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #000;
+    border-radius: 6px;
+    transition: 0.3s ease-out;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.button:hover {
+    color: #fff;
+    border-color: #fff;
+    background: #222;
+    transition: 0.5s;
+}

@@ -1,0 +1,23 @@
+body {
+    transition: 0.5s ease;
+}
+
+p {
+    font-family: Arial;
+    text-align: center;
+}
+
+.parent {
+    position: fixed;
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    color: #000;
+    font-family: Arial;
+    text-align: center;
+    transition: 0.5s ease;
+}

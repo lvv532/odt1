@@ -1,0 +1,137 @@
+.parent {
+    position: fixed;
+}
+
+div.enter-block {
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.input {
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-out;
+    color: #000;
+}
+
+div.input-name {
+    margin-top: 60px;
+}
+
+div.input-pass {
+    margin-top: 30px;
+}
+
+
+
+input:focus {
+    color: #dd2e4f;
+    border-bottom-color: #dd2e4f;
+}
+
+input:focus::placeholder {
+    color: #dd2e4f;
+    border-bottom-color: #dd2e4f;
+}
+
+.button {
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 251px;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    transition: 0.3s ease-out;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.button:hover {
+    color: #dd2e4f;
+    border-color: #dd2e4f;
+}
+
+div.ortext {
+    margin: 0 auto;
+    margin-top: 15px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+div.enter {
+    margin: o auto;
+    margin-top: 15px;
+}
+
+div.enter a {
+    width: 251px;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #000;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.3s ease-out;
+}
+
+div.enter a:hover {
+    color: #dd2e4f;
+    border-color: #dd2e4f;
+}
+
+.google {
+    margin: 0 auto;
+    float: left;
+}
+
+.fb {
+    margin: 0 auto;
+    float: right;
+}
+
+.new-acc {
+    margin-top: 50px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    color: #000;
+    transition: 0.3s ease-out;
+}
+
+.new-acc:hover {
+    color: #dd2e4f;
+}
+
+.forgot-pass {
+    margin-top: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    transition: 0.3s ease-out;
+}
+
+.forgot-pass:hover {
+    color: #dd2e4f;
+}
+
+footer {
+    
+}
